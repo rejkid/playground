@@ -1,0 +1,17 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "playground.js",
+  "main": "playground.js",
+  "scripts": {
+    "start": "nodemon --quiet playground.js",
+    "startEx": "nodemon --quiet example.ts"
+  },
+  "author": "janusz",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "rxjs": "~7.4.0",
+    "ts-node": "^10.7.0"
+  }
+}
